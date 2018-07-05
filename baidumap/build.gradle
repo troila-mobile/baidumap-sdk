@@ -5,7 +5,7 @@ publish {
     userOrg = 'qiuxiang'
     groupId = 'qiuxiang'
     artifactId = 'baidumap-sdk'
-    publishVersion = '0.0.1'
+    publishVersion = '0.0.3'
     desc = 'BaiduMap SDK'
     website = 'https://github.com/qiuxiang/baidumap-sdk'
 }
@@ -24,8 +24,14 @@ buildscript {
 
 android {
     compileSdkVersion 28
+
+    buildTypes {
+        release {
+            minifyEnabled false
+        }
+    }
 }
 
 dependencies {
-    implementation files('src/main/libs/BaiduLBS_Android.jar')
+    api files('libs/BaiduLBS_Android.jar')
 }
