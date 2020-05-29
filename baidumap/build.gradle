@@ -3,11 +3,11 @@ apply plugin: 'com.novoda.bintray-release'
 
 publish {
     userOrg = bintrayUser
-    groupId = 'qiuxiang'
+    groupId = 'troila'
     artifactId = 'baidumap-sdk'
-    publishVersion = '0.0.7'
+    publishVersion = '0.0.1'
     desc = 'BaiduMap SDK'
-    website = 'https://github.com/qiuxiang/baidumap-sdk'
+    website = 'https://github.com/troila-mobile/baidumap-sdk'
 }
 
 android {
