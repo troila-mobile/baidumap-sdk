@@ -5,7 +5,7 @@ publish {
     userOrg = bintrayUser
     groupId = 'com.zl'
     artifactId = 'baidumap-sdk-last'
-    publishVersion = '0.0.4'
+    publishVersion = '0.0.5'
     desc = 'BaiduMap SDK'
     website = 'https://github.com/troila-mobile/baidumap-sdk'
 }
