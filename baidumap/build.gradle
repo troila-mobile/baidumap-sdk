@@ -3,9 +3,9 @@ apply plugin: 'com.novoda.bintray-release'
 
 publish {
     userOrg = bintrayUser
-    groupId = 'troila'
-    artifactId = 'baidumap-sdk'
-    publishVersion = '0.0.1'
+    groupId = 'com.zl'
+    artifactId = 'baidumap-sdk-last'
+    publishVersion = '0.0.4'
     desc = 'BaiduMap SDK'
     website = 'https://github.com/troila-mobile/baidumap-sdk'
 }
