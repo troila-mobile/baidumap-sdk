@@ -5,7 +5,7 @@ publish {
     userOrg = bintrayUser
     groupId = 'com.zl'
     artifactId = 'baidumap-sdk-last'
-    publishVersion = '0.0.5'
+    publishVersion = '0.0.8'
     desc = 'BaiduMap SDK'
     website = 'https://github.com/troila-mobile/baidumap-sdk'
 }
@@ -13,6 +13,12 @@ publish {
 android {
     compileSdkVersion 28
     buildToolsVersion '28.0.3'
+
+    sourceSets {
+        main {
+            assets.srcDirs = ['src/main/assets']
+        }
+    }
 }
 
 dependencies {
